@@ -1,0 +1,3 @@
+source;share/joy_communication/hook/pythonpath.ps1
+source;share/joy_communication/hook/pythonpath.dsv
+source;share/joy_communication/hook/pythonpath.sh

@@ -1,0 +1,35 @@
+[0.740s] Invoking command in '/home/tunotuno/2025_kansaiharu_ws/joy_communication': PYTHONPATH=/home/tunotuno/2025_kansaiharu_ws/build/joy_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tunotuno/2025_kansaiharu_ws/install/joy_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/joy_communication build --build-base /home/tunotuno/2025_kansaiharu_ws/build/joy_communication/build install --record /home/tunotuno/2025_kansaiharu_ws/build/joy_communication/install.log --single-version-externally-managed install_data
+[1.001s] running egg_info
+[1.001s] creating ../build/joy_communication/joy_communication.egg-info
+[1.001s] writing ../build/joy_communication/joy_communication.egg-info/PKG-INFO
+[1.001s] writing dependency_links to ../build/joy_communication/joy_communication.egg-info/dependency_links.txt
+[1.002s] writing entry points to ../build/joy_communication/joy_communication.egg-info/entry_points.txt
+[1.002s] writing requirements to ../build/joy_communication/joy_communication.egg-info/requires.txt
+[1.002s] writing top-level names to ../build/joy_communication/joy_communication.egg-info/top_level.txt
+[1.002s] writing manifest file '../build/joy_communication/joy_communication.egg-info/SOURCES.txt'
+[1.003s] reading manifest file '../build/joy_communication/joy_communication.egg-info/SOURCES.txt'
+[1.004s] writing manifest file '../build/joy_communication/joy_communication.egg-info/SOURCES.txt'
+[1.005s] running build
+[1.005s] running build_py
+[1.005s] creating /home/tunotuno/2025_kansaiharu_ws/build/joy_communication/build
+[1.005s] creating /home/tunotuno/2025_kansaiharu_ws/build/joy_communication/build/lib
+[1.006s] creating /home/tunotuno/2025_kansaiharu_ws/build/joy_communication/build/lib/joy_communication
+[1.006s] copying joy_communication/__init__.py -> /home/tunotuno/2025_kansaiharu_ws/build/joy_communication/build/lib/joy_communication
+[1.006s] running install
+[1.006s] running install_lib
+[1.006s] creating /home/tunotuno/2025_kansaiharu_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication
+[1.006s] copying /home/tunotuno/2025_kansaiharu_ws/build/joy_communication/build/lib/joy_communication/__init__.py -> /home/tunotuno/2025_kansaiharu_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication
+[1.006s] byte-compiling /home/tunotuno/2025_kansaiharu_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication/__init__.py to __init__.cpython-310.pyc
+[1.007s] running install_data
+[1.007s] creating /home/tunotuno/2025_kansaiharu_ws/install/joy_communication/share
+[1.007s] creating /home/tunotuno/2025_kansaiharu_ws/install/joy_communication/share/ament_index
+[1.007s] creating /home/tunotuno/2025_kansaiharu_ws/install/joy_communication/share/ament_index/resource_index
+[1.007s] creating /home/tunotuno/2025_kansaiharu_ws/install/joy_communication/share/ament_index/resource_index/packages
+[1.007s] copying resource/joy_communication -> /home/tunotuno/2025_kansaiharu_ws/install/joy_communication/share/ament_index/resource_index/packages
+[1.007s] creating /home/tunotuno/2025_kansaiharu_ws/install/joy_communication/share/joy_communication
+[1.007s] copying package.xml -> /home/tunotuno/2025_kansaiharu_ws/install/joy_communication/share/joy_communication
+[1.007s] running install_egg_info
+[1.009s] Copying ../build/joy_communication/joy_communication.egg-info to /home/tunotuno/2025_kansaiharu_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication-0.0.0-py3.10.egg-info
+[1.010s] running install_scripts
+[1.033s] writing list of installed files to '/home/tunotuno/2025_kansaiharu_ws/build/joy_communication/install.log'
+[1.071s] Invoked command in '/home/tunotuno/2025_kansaiharu_ws/joy_communication' returned '0': PYTHONPATH=/home/tunotuno/2025_kansaiharu_ws/build/joy_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tunotuno/2025_kansaiharu_ws/install/joy_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/joy_communication build --build-base /home/tunotuno/2025_kansaiharu_ws/build/joy_communication/build install --record /home/tunotuno/2025_kansaiharu_ws/build/joy_communication/install.log --single-version-externally-managed install_data

@@ -1,0 +1,62 @@
+[0.015s] Invoking command in '/home/tunotuno/robocon_ws/src/joy_package/build/joy_package': /usr/bin/cmake /home/tunotuno/robocon_ws/src/joy_package -DCMAKE_INSTALL_PREFIX=/home/tunotuno/robocon_ws/src/joy_package/install/joy_package
+[0.222s] -- The C compiler identification is GNU 11.4.0
+[0.392s] -- The CXX compiler identification is GNU 11.4.0
+[0.407s] -- Detecting C compiler ABI info
+[0.495s] -- Detecting C compiler ABI info - done
+[0.501s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.502s] -- Detecting C compile features
+[0.503s] -- Detecting C compile features - done
+[0.508s] -- Detecting CXX compiler ABI info
+[0.599s] -- Detecting CXX compiler ABI info - done
+[0.605s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.606s] -- Detecting CXX compile features
+[0.606s] -- Detecting CXX compile features - done
+[0.612s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.750s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.860s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.925s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.933s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.950s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.973s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.997s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.072s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.077s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.197s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.222s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.255s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.268s] -- Looking for pthread.h
+[1.359s] -- Looking for pthread.h - found
+[1.359s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.433s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.434s] -- Found Threads: TRUE  
+[1.527s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.579s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.622s] Error parsing '/home/tunotuno/robocon_ws/src/joy_package/package.xml':
+[1.656s] Traceback (most recent call last):
+[1.656s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.656s]     main()
+[1.656s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.656s]     raise e
+[1.656s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.656s]     package = parse_package_string(
+[1.656s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[1.657s]     pkg.validate(warnings=warnings)
+[1.657s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[1.657s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[1.657s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/tunotuno/robocon_ws/src/joy_package/package.xml':
+[1.657s] Invalid email "tunoda0226" for person "tunotuno"
+[1.675s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.675s]   execute_process(/usr/bin/python3
+[1.675s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.675s]   /home/tunotuno/robocon_ws/src/joy_package/package.xml
+[1.675s]   /home/tunotuno/robocon_ws/src/joy_package/build/joy_package/ament_cmake_core/package.cmake)
+[1.675s]   returned error code 1
+[1.675s] Call Stack (most recent call first):
+[1.675s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.675s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.675s]   CMakeLists.txt:42 (ament_lint_auto_find_test_dependencies)
+[1.675s] 
+[1.676s] [0m
+[1.676s] -- Configuring incomplete, errors occurred!
+[1.676s] See also "/home/tunotuno/robocon_ws/src/joy_package/build/joy_package/CMakeFiles/CMakeOutput.log".
+[1.693s] Invoked command in '/home/tunotuno/robocon_ws/src/joy_package/build/joy_package' returned '1': /usr/bin/cmake /home/tunotuno/robocon_ws/src/joy_package -DCMAKE_INSTALL_PREFIX=/home/tunotuno/robocon_ws/src/joy_package/install/joy_package
